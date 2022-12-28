@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.sidebar {
+    position: absolute;
+     background-color: grey; 
+    font-family: 'Fira Sans', sans-serif; 
+    font-family: 'Gentium Book Plus', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 3.8rem;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 2.5rem 0 2.5rem 0;
+    font-weight: bold;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+    background-color: rgb(124, 83, 7); 
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display:flex;
+}
+
+.infoContainer{
+    
+      height: 100vh;  
+     width: 100vw;  
+ 
+    display:flex;
+    justify-content:space-around; 
+    
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    font-family: 'Source Code Pro', monospace; 
+    
+    font-size: 1.5rem;
+     margin-left: 1.5rem ;
+    margin-top: 1.0rem; 
+    margin: 5rem 2rem;
+    
+}
+ 
+.hello {
+font-size: 2.2rem; 
+} 
+
+.name{
+font-size: 2rem;
+font-weight: bold;
+font-family: 'Gentium Book Plus', serif;
+}
+
+.about{
+font-size:2rem;
+font-weight: bold;
+font-family: 'Ranga', cursive;
+display: flex;
+}
+.moreabout{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+      
+}
+
+.buttons{ 
+    margin-top: 2.2em; 
+}
+.btn{
+      padding:0.9rem 1.4rem;   
+    border-radius: 1.5rem;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0.3rem;  
+    cursor: pointer;
+}
+
+.btn-smt{
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    color:blueviolet;
+    background-color: white;
+}
+
+
+.bt{
+    padding:0.9rem 1.4rem;   
+  border-radius: 1.5rem;
+  color: white;
+  background-color: blueviolet;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: auto;  
+  cursor: pointer;
+  display: block;
+}
+
+.bt-smt{
+  font-size: 1.7rem;
+  
+}
+.bt:hover{
+    color:blueviolet;
+    background-color: white;
+    
+}
+
+ 
+.contactform {
+    font-family: 'Gentium Book Plus', serif;
+ margin:0 8.8rem;  
+   margin-top: 3rem;
+    
+}
+
+.contactform h1{
+    font-family: 'Gentium Book Plus', serif;
+    
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    border-radius: 0.5rem;
+    
+}
+.contactform form{
+    margin: 0 4.0rem;
+}
+
+
+#emailHelp{
+    font-size: 1.2rem;
+    color: red;
+    
+}
+
+#form-check{
+flex-direction: row;
+}
+
+
+.intro {
+    margin:8.0rem 4.0rem;
+    justify-content: center;
+    font-size: 2rem;
+}
+.intro h2 {
+     font-family: 'fira sans',sans-serif; 
+    font-family: 'Gentium Book Plus', serif;
+    margin: 1.8rem;
+    
+}
+.intro p{
+    font-family: 'Source Code Pro',monospace; 
+    font-family: 'Passion One', cursive;
+    margin: 1.8rem;
+}
+
+.skillcontainer{
+    padding: 1.8rem;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Passion One', cursive;
+}
+.skill{
+    width: 2.3rem;
+    height: 2.3rem;
+    
+}
+.sidebarGo{
+    transform: translate(-44.3rem,0rem);
+    position: absolute;
+}
+.hamburger
+{
+position: absolute;
+cursor: pointer;
+top: 1.0rem;
+left: 1.0rem;
+}
+.ham{
+    margin-top: 0.8rem;
+}
+
+.cross{
+    margin-left: 12.0rem;
+    margin-top: 0.8rem;
+}
+ 
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
